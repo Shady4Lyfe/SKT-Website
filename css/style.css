@@ -42,9 +42,13 @@ h1 {
   font-weight: bold;
 }
 
+div:hover {
+  background-color: lightgrey;
+}
+
 h2 {
   text-align: center;
-  color: slategrey;
+  color: darkslategrey;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
 }
@@ -82,7 +86,7 @@ button {
   background-color: white;
   border-style: solid;
   border-width: 3px;
-  border-color: springgreen;
+  border-color: lightgray;
   font-family: "Verdana";
 }
 
@@ -91,14 +95,15 @@ button {
   background-color: lightgrey;
 }
 
-#team2,
-#team3,
-#team4,
-#team5  {
+#img2,
+#img3,
+#img4,
+#img5 {
   display: none;
 }
 
 /* Navigation Bar */
+
 ul {
   list-style-type: none;
   margin: 0;

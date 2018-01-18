@@ -1,4 +1,4 @@
-let teamNum = 1;
+let imgNum = 1;
 
 $("#next").click(nextImg);
 $("#prev").click(prevImg);
@@ -48,23 +48,23 @@ $("#Rapidstar").click(function () {
 });
 
 function nextImg() {
-  $("#team" + teamNum).hide();
+  $("#img" + imgNum).hide();
 
-  teamNum++;
-  if (teamNum > 5) {
-    teamNum = 1;
+  imgNum++;
+  if (imgNum > 5) {
+    imgNum = 1;
   }
 
-  $("#team" + teamNum).show();
+  $("#img" + imgNum).show();
 }
 
 function prevImg() {
-  $("#team" + teamNum).hide();
+  $("#img" + imgNum).hide();
 
-  teamNum--;
-  if (teamNum < 1) {
-    teamNum = 5;
+  imgNum--;
+  if (imgNum < 1) {
+    imgNum = 5;
   }
 
-  $("#team" + teamNum).show();
+  $("#img" + imgNum).show();
 }
