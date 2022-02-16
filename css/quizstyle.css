@@ -4,7 +4,7 @@ body {
   text-align: center;
 }
 
-/*SK telecom*/
+/*SK telecom text*/
 .Title {
   text-align: center;
   color: darkorange;
@@ -19,7 +19,7 @@ body {
   font-weight: bold;
 }
 
-/*Logo*/
+/*logo position*/
 .logo {
   text-align: center;
   margin: auto;
@@ -46,7 +46,7 @@ h1 {
   font-weight: bold;
 }
 
-
+/*question padding*/
 #question1,
 #question2,
 #question3,
@@ -68,22 +68,23 @@ h1 {
   display: none;
 }
 
-
+/*prev next buttons*/
 #next {
   position: absolute;
   margin-left: 60px;
-  top: 1080px;
+  top: 1095px;
+  transform: translate(-115%, -50%);
   background-color: white;
   border-style: solid;
   border-width: 3px;
   border-color: orangered;
   font-family: "Verdana";
 }
-
 #prev {
   position: absolute;
-  top: 1080px;
-  margin: auto;
+  margin:auto;
+  top: 1095px;
+  transform: translate(-115%, -50%);
   background-color: white;
   border-style: solid;
   border-width: 3px;
@@ -91,10 +92,12 @@ h1 {
   font-family: "Verdana";
 }
 
+/*mark quiz button*/
 #mark {
   position: absolute;
-  top: 1120px;
   margin: auto;
+  top: 1130px;
+  transform: translate(-50%, -50%);
   background-color: white;
   border-style: solid;
   border-width: 3px;
@@ -120,6 +123,7 @@ h1 {
   background-color: lightgray;
 }
 
+/*hovering buttons*/
 #prev:hover,
 #next:hover,
 #mark:hover{
