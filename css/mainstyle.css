@@ -4,6 +4,7 @@ body {
   text-align: center;
 }
 
+/*SKT Title and Logo*/
 .Title {
   text-align: center;
   color: darkorange;
@@ -12,13 +13,11 @@ body {
   font-weight: 100;
   margin: auto;
 }
-
 .SK {
   color: #F03D3D;
   font-size: 30px;
   font-weight: bold;
 }
-
 div {
   background-color: white;
   text-align: center;
@@ -29,6 +28,7 @@ div {
   overflow: auto;
 }
 
+/*Heading*/
 h1 {
   text-align: center;
   background-color: white;
@@ -103,7 +103,6 @@ button {
 }
 
 /* Navigation Bar */
-
 ul {
   list-style-type: none;
   margin: 0;

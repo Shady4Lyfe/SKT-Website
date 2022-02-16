@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+/*SKT Title and Logo*/
 .Title {
   text-align: center;
   color: darkorange;
@@ -11,13 +12,11 @@ body {
   font-weight: 100;
   margin: -20px auto;
 }
-
 .SK {
   color: #F03D3D;
   font-size: 30px;
   font-weight: bold;
 }
-
 div {
   background-color: white;
   margin: 40px auto;
@@ -27,6 +26,7 @@ div {
   overflow: auto;
 }
 
+/*Heading*/
 h1 {
   text-align: center;
   color: #CC0000;
