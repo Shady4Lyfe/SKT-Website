@@ -36,7 +36,7 @@ function markQuiz() {
   let answer2 = $("#answer2").val();
   let answer3 = $("#answer3").val();
   let answer4 = $("#answer4").val();
-  
+
   if (answer1 == "C") {
     $("#question1").css("background-color", "limegreen");
     score++;
@@ -64,16 +64,6 @@ function markQuiz() {
   } else {
     $("#question4").css("background-color", "red");
   }
-
-  if ($("#b1").is(':visible')) {
-    $("#question5").css("background-color", "limegreen");
-    score++;
-  } else {
-    $("#question5").css("background-color", "red");
-  }
-
-  alert("Your score is " + score + " out of 5 or " + score / 5 * 100 + "%");
-  score = 0;
 
 
 }
