@@ -117,8 +117,7 @@ h1 {
 
 #prev:hover,
 #next:hover,
-#mark:hover,
-  {
+#mark:hover {
   background-color: lightgray;
 }
 
