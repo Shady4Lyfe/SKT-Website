@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-/*SKT Title and Logo*/
+/*SK telecom*/
 .Title {
   text-align: center;
   color: darkorange;
@@ -17,6 +17,8 @@ body {
   font-size: 30px;
   font-weight: bold;
 }
+
+/*white header*/
 div {
   background-color: white;
   margin: 40px auto;
@@ -42,7 +44,7 @@ h2 {
   font-size: 20px;
 }
 
-.center {
+.logo {
   text-align: center;
   margin: -20px auto;
 }
