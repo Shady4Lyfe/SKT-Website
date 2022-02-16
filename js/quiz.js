@@ -65,6 +65,11 @@ function markQuiz() {
     $("#question4").css("background-color", "red");
   }
 
+  if ($("#b1").is(':visible')) {
+    score++;
+  }
+  alert("Your score is " + score + " out of 5 or " + score / 5 * 100 + "%");
+  score = 0;
 
 }
 
